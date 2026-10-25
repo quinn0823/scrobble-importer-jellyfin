@@ -1,304 +1,347 @@
 {
     "Items": [
         {
-            "Name": "Rule the World",
+            "Name": "Cinema",
             "ServerId": "95b6814630534e469deb4d12d8f242fc",
-            "Id": "4e6b0f0042ec8dd364e0e98388f455ab",
+            "Id": "4a831d0026b26bfce0de29624ce5dd24",
             "HasLyrics": true,
             "Container": "mp3",
-            "PremiereDate": "2021-11-12T00:00:00.0000000Z",
-            "ChannelId": null,
-            "RunTimeTicks": 1981387760,
-            "ProductionYear": 2021,
-            "IndexNumber": 1,
+            "PremiereDate": "2022-05-20T00:00:00.0000000Z",
+            "ChannelIdÏ": null,
+            "RunTimeTicks": 2435395920,
+            "ProductionYear": 2022,
+            "IndexNumber": 8,
             "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "MusicBrainzArtist": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+                "MusicBrainzAlbumArtist": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+                "MusicBrainzAlbum": "7ec22411-8195-4630-97ae-dc0b82380c19",
+                "MusicBrainzReleaseGroup": "d712ba0e-25fa-4c03-aecd-ec0c100deba5",
+                "MusicBrainzTrack": "e0d6b2a9-5328-4750-977a-4a0d355ad197"
+            },
             "IsFolder": false,
             "Type": "Audio",
-            "ParentLogoItemId": "bccfbc24c3c85c748813b4e20b36bea7",
-            "ParentBackdropItemId": "bccfbc24c3c85c748813b4e20b36bea7",
-            "ParentBackdropImageTags": ["0ee821b27730f63ef8896515c56a6ea6"],
+            "ParentLogoItemId": "a52450fcf3f863d16e85bc0248c20207",
+            "ParentBackdropItemId": "a52450fcf3f863d16e85bc0248c20207",
+            "ParentBackdropImageTags": ["6736da90b08b706e78c83bf0e76eb873"],
             "UserData": {
                 "PlaybackPositionTicks": 0,
-                "PlayCount": 18,
+                "PlayCount": 0,
                 "IsFavorite": false,
-                "LastPlayedDate": "2026-05-04T10:44:45.9835666Z",
-                "Played": true,
-                "Key": "The Wanted-Most Wanted: The Greatest Hits-0001-0001Rule the World",
+                "Played": false,
+                "Key": "Harry Styles-Harry’s House-0001-0008Cinema",
                 "ItemId": "00000000000000000000000000000000"
             },
-            "Artists": ["The Wanted"],
+            "Artists": ["Harry Styles"],
             "ArtistItems": [
                 {
-                    "Name": "The Wanted",
-                    "Id": "bccfbc24c3c85c748813b4e20b36bea7"
+                    "Name": "Harry Styles",
+                    "Id": "a52450fcf3f863d16e85bc0248c20207"
                 }
             ],
-            "Album": "Most Wanted: The Greatest Hits",
-            "AlbumId": "949ce8ebec169077bf1aa33e9abe2400",
-            "AlbumPrimaryImageTag": "6ba2269eac4c793252f90d500a4e1c93",
-            "AlbumArtist": "The Wanted",
+            "Album": "Harry’s House",
+            "AlbumId": "9d5ffc4268ff1d9887ae2e233d694cbc",
+            "AlbumPrimaryImageTag": "bad60ffa3859346c6225d0b80248f2fb",
+            "AlbumArtist": "Harry Styles",
             "AlbumArtists": [
                 {
-                    "Name": "The Wanted",
-                    "Id": "bccfbc24c3c85c748813b4e20b36bea7"
+                    "Name": "Harry Styles",
+                    "Id": "a52450fcf3f863d16e85bc0248c20207"
                 }
             ],
             "ImageTags": {},
             "BackdropImageTags": [],
-            "ParentLogoImageTag": "c723680a4f41ff27757accfd724aeb13",
+            "ParentLogoImageTag": "cdd977686e68bd44d4fb5b8f2516ddc2",
             "ImageBlurHashes": {
                 "Logo": {
-                    "c723680a4f41ff27757accfd724aeb13": "OoQJyFoft7ofs:oft7~WfjRjayWBayRkt7jtj[j[ayj[j["
+                    "cdd977686e68bd44d4fb5b8f2516ddc2": "OYQchzWW_Nxa?HtRM{%MWBWXt7aeRkayM{oft7Rjoft7WV"
                 },
                 "Backdrop": {
-                    "0ee821b27730f63ef8896515c56a6ea6": "WYEoiG%LR-xuW=kD~poLRjofR*a#?IWBRjofR*WCkXWBoJofoLoL"
+                    "6736da90b08b706e78c83bf0e76eb873": "WwIq=d%N?w-;?bkD%Maeozofxut7ozoLofWBaeWBxuofogs:s:WC"
                 },
                 "Primary": {
-                    "6ba2269eac4c793252f90d500a4e1c93": "eKGl3K?aMx?bxu~qt7jZxaj=?cWCD%WXNG%g%LWBozoL%MoeayWCof"
+                    "bad60ffa3859346c6225d0b80248f2fb": "ePN,C,~U%Mxu%gQlbIxuxZNH8_a#M{s:Rj?Hs,M|RjxZ%LM{M|adRj"
                 }
             },
             "LocationType": "FileSystem",
-            "MediaType": "Audio"
+            "MediaType": "Audio",
+            "NormalizationGain": -10.5
         },
         {
-            "Name": "betty",
+            "Name": "Shake It Off",
             "ServerId": "95b6814630534e469deb4d12d8f242fc",
-            "Id": "88a21200070b0e44f8204d05615862a6",
-            "HasLyrics": true,
-            "Container": "flac",
-            "PremiereDate": "2020-07-24T00:00:00.0000000Z",
-            "ChannelId": null,
-            "RunTimeTicks": 2945210660,
-            "ProductionYear": 2020,
-            "IndexNumber": 14,
-            "ParentIndexNumber": 1,
-            "IsFolder": false,
-            "Type": "Audio",
-            "ParentLogoItemId": "2cc46526e4d8f97ea9c4756f641497a5",
-            "ParentBackdropItemId": "2cc46526e4d8f97ea9c4756f641497a5",
-            "ParentBackdropImageTags": ["903b718caf59e8800fdcbae73f4f8431"],
-            "UserData": {
-                "PlaybackPositionTicks": 0,
-                "PlayCount": 2,
-                "IsFavorite": false,
-                "LastPlayedDate": "2026-03-24T17:59:34.614068Z",
-                "Played": true,
-                "Key": "Taylor Swift-folklore-0001-0014betty",
-                "ItemId": "00000000000000000000000000000000"
-            },
-            "Artists": ["Taylor Swift"],
-            "ArtistItems": [
-                {
-                    "Name": "Taylor Swift",
-                    "Id": "2cc46526e4d8f97ea9c4756f641497a5"
-                }
-            ],
-            "Album": "folklore",
-            "AlbumId": "41ca9e9bb99a4601f7c92d0d48c635f4",
-            "AlbumPrimaryImageTag": "4265223c9174c2e9eb8d049f2d9bdb99",
-            "AlbumArtist": "Taylor Swift",
-            "AlbumArtists": [
-                {
-                    "Name": "Taylor Swift",
-                    "Id": "2cc46526e4d8f97ea9c4756f641497a5"
-                }
-            ],
-            "ImageTags": {},
-            "BackdropImageTags": [],
-            "ParentLogoImageTag": "62bffa68969d8a580f801b3d16ba723b",
-            "ImageBlurHashes": {
-                "Logo": {
-                    "62bffa68969d8a580f801b3d16ba723b": "OhJacCa}NIa#WCs.R+_Nj[oLj[azj[az?wa#j@oeazj[j@"
-                },
-                "Backdrop": {
-                    "903b718caf59e8800fdcbae73f4f8431": "WA7,+4s:0fELxF={$*bGoLIpI:={-TR*NbR*oJ%2NbNG$%xaI;a}"
-                },
-                "Primary": {
-                    "4265223c9174c2e9eb8d049f2d9bdb99": "eaKUZk-;M{M{j[~qxuWBRjWBRjWBWBofof-;ofWBRjofxut7j[RjWB"
-                }
-            },
-            "LocationType": "FileSystem",
-            "MediaType": "Audio"
-        },
-        {
-            "Name": "Supermarket Flowers",
-            "ServerId": "95b6814630534e469deb4d12d8f242fc",
-            "Id": "6c5c3200f77029266d4b1813dc069c6d",
+            "Id": "bdaba1003309de26a0aebcfbacbbc05b",
             "HasLyrics": true,
             "Container": "mp3",
-            "PremiereDate": "2017-03-03T00:00:00.0000000Z",
+            "PremiereDate": "2016-12-09T00:00:00.0000000Z",
             "ChannelId": null,
-            "RunTimeTicks": 2211526530,
-            "ProductionYear": 2017,
-            "IndexNumber": 12,
+            "RunTimeTicks": 1206073470,
+            "ProductionYear": 2016,
+            "IndexNumber": 13,
             "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "MusicBrainzArtist": "816c4b57-b0a7-40cd-a652-45ac9491ca80",
+                "MusicBrainzAlbumArtist": "89ad4ac3-39f7-470e-963a-56509c546377",
+                "MusicBrainzAlbum": "0a8e5eb0-70b7-4b89-9a93-926e7afe332f",
+                "MusicBrainzReleaseGroup": "143792fa-0a91-4a9b-82e3-45b6c592c933",
+                "MusicBrainzTrack": "6ad2831f-6e18-422e-8353-5e33616a3028"
+            },
             "IsFolder": false,
             "Type": "Audio",
-            "ParentLogoItemId": "625d2d23484986020c488abbcf6958f4",
-            "ParentBackdropItemId": "625d2d23484986020c488abbcf6958f4",
-            "ParentBackdropImageTags": ["d22ac7013eb83132e1813546c96b75c6"],
-            "UserData": {
-                "PlaybackPositionTicks": 0,
-                "PlayCount": 2,
-                "IsFavorite": false,
-                "LastPlayedDate": "2026-05-06T12:31:54.3929734Z",
-                "Played": true,
-                "Key": "Ed Sheeran-Divide-0001-0012Supermarket Flowers",
-                "ItemId": "00000000000000000000000000000000"
-            },
-            "Artists": ["Ed Sheeran"],
-            "ArtistItems": [
-                {
-                    "Name": "Ed Sheeran",
-                    "Id": "625d2d23484986020c488abbcf6958f4"
-                }
-            ],
-            "Album": "Divide",
-            "AlbumId": "4f28b2c8617785e438b5dc4b052323b8",
-            "AlbumPrimaryImageTag": "3b7c0e3a6d3debffb82507db1dccc0e3",
-            "AlbumArtist": "Ed Sheeran",
-            "AlbumArtists": [
-                {
-                    "Name": "Ed Sheeran",
-                    "Id": "625d2d23484986020c488abbcf6958f4"
-                }
-            ],
-            "ImageTags": {},
-            "BackdropImageTags": [],
-            "ParentLogoImageTag": "e03652b6d35e767e188af2bc8f1ee174",
-            "ImageBlurHashes": {
-                "Logo": {
-                    "e03652b6d35e767e188af2bc8f1ee174": "OK8qNgt7WBj[WBt7ofWBofj[j[fQfQj[00RjofayofRjWB"
-                },
-                "Backdrop": {
-                    "d22ac7013eb83132e1813546c96b75c6": "WGBpFJE10K%g-;Z~nNxakqE1e.-pIUjtxukCIUWBx]RjRPxukWIV"
-                },
-                "Primary": {
-                    "3b7c0e3a6d3debffb82507db1dccc0e3": "eU7r8cpJu6cGn3tTkWj]ahkCt-f+VrWCV@t-bIkVWYaKoyV[VrV?k?"
-                }
-            },
-            "LocationType": "FileSystem",
-            "MediaType": "Audio"
-        },
-        {
-            "Name": "Can’t Feel My Face",
-            "ServerId": "95b6814630534e469deb4d12d8f242fc",
-            "Id": "990c5f003b62b6d382e1f3031d5b6109",
-            "HasLyrics": true,
-            "Container": "mp3",
-            "PremiereDate": "2021-12-17T00:00:00.0000000Z",
-            "ChannelId": null,
-            "RunTimeTicks": 2019265310,
-            "ProductionYear": 2021,
-            "IndexNumber": 3,
-            "ParentIndexNumber": 1,
-            "IsFolder": false,
-            "Type": "Audio",
-            "ParentLogoItemId": "1783ac6fbf7d1b6a0bedaa8200db74fd",
-            "ParentBackdropItemId": "1783ac6fbf7d1b6a0bedaa8200db74fd",
-            "ParentBackdropImageTags": ["6e68516bb32b8e28c7e5d313d40dece1"],
-            "UserData": {
-                "PlaybackPositionTicks": 0,
-                "PlayCount": 2,
-                "IsFavorite": false,
-                "LastPlayedDate": "2026-04-03T15:09:42.1862994Z",
-                "Played": true,
-                "Key": "Various Artists-Sing 2: Original Motion Picture Soundtrack-0001-0003Can’t Feel My Face",
-                "ItemId": "00000000000000000000000000000000"
-            },
-            "Artists": ["Kiana Ledé"],
-            "ArtistItems": [
-                {
-                    "Name": "Kiana Ledé",
-                    "Id": "8f48c688dadcf41a02086937628181f6"
-                }
-            ],
-            "Album": "Sing 2: Original Motion Picture Soundtrack",
-            "AlbumId": "d13b97401c1080b3cd6c799888238ecc",
-            "AlbumPrimaryImageTag": "01accfb8b134e3b1be9c6c69082e3943",
-            "AlbumArtist": "Various Artists",
-            "AlbumArtists": [
-                {
-                    "Name": "Various Artists",
-                    "Id": "1783ac6fbf7d1b6a0bedaa8200db74fd"
-                }
-            ],
-            "ImageTags": {},
-            "BackdropImageTags": [],
-            "ParentLogoImageTag": "7403f49cee8605e3b611ad95490bf98e",
-            "ImageBlurHashes": {
-                "Logo": {
-                    "7403f49cee8605e3b611ad95490bf98e": "OJDvWTof01WBxuj[-:WDWCxuoft7jtof9Zj[t6azRjWBaf"
-                },
-                "Backdrop": {
-                    "6e68516bb32b8e28c7e5d313d40dece1": "WbM@it_3%MWBfQt7~qofWBt7ayofofofWBM{t7xu-;t7xuRjayof"
-                },
-                "Primary": {
-                    "01accfb8b134e3b1be9c6c69082e3943": "eTM5t-r^^i-pIV~BxZ-n%2WB5PRj%0j[xtB+NG%1ay%J?Exat5xa%K"
-                }
-            },
-            "LocationType": "FileSystem",
-            "MediaType": "Audio"
-        },
-        {
-            "Name": "Majestic",
-            "ServerId": "95b6814630534e469deb4d12d8f242fc",
-            "Id": "52f50d0155865dad417a5767e1771058",
-            "HasLyrics": true,
-            "Container": "flac",
-            "PremiereDate": "2015-10-09T00:00:00.0000000Z",
-            "ChannelId": null,
-            "RunTimeTicks": 2445046710,
-            "ProductionYear": 2015,
-            "IndexNumber": 12,
-            "ParentIndexNumber": 1,
-            "IsFolder": false,
-            "Type": "Audio",
-            "ParentLogoItemId": "e90e0ac82c6f6e17366e9359993ebeb7",
-            "ParentBackdropItemId": "e90e0ac82c6f6e17366e9359993ebeb7",
-            "ParentBackdropImageTags": ["6f0bc326ed0d338a69dfacf9d5d5728a"],
+            "ParentLogoItemId": "a0ac11feb2d6359a7eeeff53bb5839d3",
+            "ParentBackdropItemId": "a0ac11feb2d6359a7eeeff53bb5839d3",
+            "ParentBackdropImageTags": ["7823509e9e13a3e1de30477d9e66a0c7"],
             "UserData": {
                 "PlaybackPositionTicks": 0,
                 "PlayCount": 6,
                 "IsFavorite": false,
-                "LastPlayedDate": "2026-04-21T05:06:06.7197397Z",
+                "LastPlayedDate": "2026-10-06T01:35:34.5088364Z",
                 "Played": true,
-                "Key": "Frankmusik-For You-0001-0012Majestic",
+                "Key": "Various Artists-Sing: Original Motion Picture Soundtrack-0001-0013Shake It Off",
                 "ItemId": "00000000000000000000000000000000"
             },
-            "Artists": ["Frankmusik"],
+            "Artists": ["Nick Kroll", "Reese Witherspoon"],
             "ArtistItems": [
                 {
-                    "Name": "Frankmusik",
-                    "Id": "e90e0ac82c6f6e17366e9359993ebeb7"
+                    "Name": "Nick Kroll",
+                    "Id": "b6554b106990d04ee47b7b10940a065b"
+                },
+                {
+                    "Name": "Reese Witherspoon",
+                    "Id": "7c75f187c81abeaf99f612c01a557cb9"
                 }
             ],
-            "Album": "For You",
-            "AlbumId": "6adcf287fdb7257695aad873043c0d0b",
-            "AlbumPrimaryImageTag": "2b98fceebb056eb1087a5a91e4b1d0c6",
-            "AlbumArtist": "Frankmusik",
+            "Album": "Sing: Original Motion Picture Soundtrack",
+            "AlbumId": "50cc5b10e2a3b33d1e2b34a5689c9601",
+            "AlbumPrimaryImageTag": "2f6054bcebe3837312fc8a91f5683c94",
+            "AlbumArtist": "Various Artists",
             "AlbumArtists": [
                 {
-                    "Name": "Frankmusik",
-                    "Id": "e90e0ac82c6f6e17366e9359993ebeb7"
+                    "Name": "Various Artists",
+                    "Id": "a0ac11feb2d6359a7eeeff53bb5839d3"
                 }
             ],
             "ImageTags": {},
             "BackdropImageTags": [],
-            "ParentLogoImageTag": "c0ac453ee67755c2b502647d948ec528",
+            "ParentLogoImageTag": "3002491237dd09431011be124f385272",
             "ImageBlurHashes": {
                 "Logo": {
-                    "c0ac453ee67755c2b502647d948ec528": "O~R1|~ofW.ofW.ofbGxajtfQfQa|fQfQ.ma{n+a|n+a|ja"
+                    "3002491237dd09431011be124f385272": "OJDvWTof01WBxuj[-:WDWCxuoft7jtof9Zj[t6azRjWBaf"
                 },
                 "Backdrop": {
-                    "6f0bc326ed0d338a69dfacf9d5d5728a": "WmI5GJIU%MxuIUoM~qWBbbtRM{WBtRkBWBt7WBWBt7j[t7jsofjt"
+                    "7823509e9e13a3e1de30477d9e66a0c7": "WbM@it_3%MWBfQt7~qofWBt7ayofofofWBM{t7xu-;t7xuRjayof"
                 },
                 "Primary": {
-                    "2b98fceebb056eb1087a5a91e4b1d0c6": "e86@~FIV0J~XozxaNGbd-;ITIpt7xCIUozRit7WYNG%LM|ofxaWAWC"
+                    "2f6054bcebe3837312fc8a91f5683c94": "emJk7Uxut6xtNH0jWBjFRkxar=WBxsofxs%MofxZofayM{kCt6WVog"
                 }
             },
             "LocationType": "FileSystem",
-            "MediaType": "Audio"
+            "MediaType": "Audio",
+            "NormalizationGain": -10.1
+        },
+        {
+            "Name": "Boyfriends",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "7319b0001d7e7de966f285e574638d92",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2022-05-20T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 1945861220,
+            "ProductionYear": 2022,
+            "IndexNumber": 12,
+            "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "MusicBrainzArtist": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+                "MusicBrainzAlbumArtist": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+                "MusicBrainzAlbum": "7ec22411-8195-4630-97ae-dc0b82380c19",
+                "MusicBrainzReleaseGroup": "d712ba0e-25fa-4c03-aecd-ec0c100deba5",
+                "MusicBrainzTrack": "f4447a45-78ec-42cc-a603-d7c61f65ca0f"
+            },
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "a52450fcf3f863d16e85bc0248c20207",
+            "ParentBackdropItemId": "a52450fcf3f863d16e85bc0248c20207",
+            "ParentBackdropImageTags": ["6736da90b08b706e78c83bf0e76eb873"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 1,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-04-22T16:37:52.7595519Z",
+                "Played": true,
+                "Key": "Harry Styles-Harry’s House-0001-0012Boyfriends",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Harry Styles"],
+            "ArtistItems": [
+                {
+                    "Name": "Harry Styles",
+                    "Id": "a52450fcf3f863d16e85bc0248c20207"
+                }
+            ],
+            "Album": "Harry’s House",
+            "AlbumId": "9d5ffc4268ff1d9887ae2e233d694cbc",
+            "AlbumPrimaryImageTag": "bad60ffa3859346c6225d0b80248f2fb",
+            "AlbumArtist": "Harry Styles",
+            "AlbumArtists": [
+                {
+                    "Name": "Harry Styles",
+                    "Id": "a52450fcf3f863d16e85bc0248c20207"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "cdd977686e68bd44d4fb5b8f2516ddc2",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "cdd977686e68bd44d4fb5b8f2516ddc2": "OYQchzWW_Nxa?HtRM{%MWBWXt7aeRkayM{oft7Rjoft7WV"
+                },
+                "Backdrop": {
+                    "6736da90b08b706e78c83bf0e76eb873": "WwIq=d%N?w-;?bkD%Maeozofxut7ozoLofWBaeWBxuofogs:s:WC"
+                },
+                "Primary": {
+                    "bad60ffa3859346c6225d0b80248f2fb": "ePN,C,~U%Mxu%gQlbIxuxZNH8_a#M{s:Rj?Hs,M|RjxZ%LM{M|adRj"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio",
+            "NormalizationGain": -9.5
+        },
+        {
+            "Name": "Underdog",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "08efce009a5a00566cb52222fa790139",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2012-09-04T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2095281630,
+            "ProductionYear": 2012,
+            "IndexNumber": 10,
+            "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "MusicBrainzArtist": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+                "MusicBrainzAlbumArtist": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+                "MusicBrainzAlbum": "5a99048b-460f-482b-9b65-a0b3bc419330",
+                "MusicBrainzReleaseGroup": "caef5f01-8568-4573-8458-c9e99ff7c734",
+                "MusicBrainzTrack": "da36f4a4-ec30-4857-bc5f-756ae4661b09"
+            },
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "b14d0411cfe5ec26e1bec4c22e3aea7f",
+            "ParentBackdropItemId": "b14d0411cfe5ec26e1bec4c22e3aea7f",
+            "ParentBackdropImageTags": ["5181383cee485398a53151f6f51f8c86"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 2,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-10-14T05:26:46.8192649Z",
+                "Played": true,
+                "Key": "Imagine Dragons-Night Visions-0001-0010Underdog",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Imagine Dragons"],
+            "ArtistItems": [
+                {
+                    "Name": "Imagine Dragons",
+                    "Id": "b14d0411cfe5ec26e1bec4c22e3aea7f"
+                }
+            ],
+            "Album": "Night Visions",
+            "AlbumId": "845ca49aa5c643577b14ce0d63a7bd72",
+            "AlbumPrimaryImageTag": "ad8b8a1bf184b843d3a8849fb30975cd",
+            "AlbumArtist": "Imagine Dragons",
+            "AlbumArtists": [
+                {
+                    "Name": "Imagine Dragons",
+                    "Id": "b14d0411cfe5ec26e1bec4c22e3aea7f"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "3ed81fb48a87b8ecf0049de8ed3e5516",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "3ed81fb48a87b8ecf0049de8ed3e5516": "OVR:HGofofofWBt7j[%MfQfQj[fQj[ay~qj[WBj[ofayay"
+                },
+                "Backdrop": {
+                    "5181383cee485398a53151f6f51f8c86": "W97nE~t700Rk-:xt%NfRM_j[fkWBWYayoIkBR*WB%MayM{j[xtof"
+                },
+                "Primary": {
+                    "ad8b8a1bf184b843d3a8849fb30975cd": "eeHowdxuxaxuoeyZxtjEofWB0KWBR*WBoLkrR+oga}WCo#ofWAoLoe"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio",
+            "NormalizationGain": -10.1
+        },
+        {
+            "Name": "TALK ME DOWN",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "d07bf700eb80ee8c6a74e5583267d91d",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2015-12-04T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2375280000,
+            "ProductionYear": 2015,
+            "IndexNumber": 7,
+            "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "MusicBrainzArtist": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+                "MusicBrainzAlbumArtist": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+                "MusicBrainzAlbum": "877e370c-f941-4a63-9acc-7b672acbff69",
+                "MusicBrainzReleaseGroup": "0f9accd1-44bd-4e4c-ba80-dd6a0c0a6ddf",
+                "MusicBrainzTrack": "987a6cd9-3cf3-48a9-bc26-0416f1d9a358"
+            },
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "e8f5c286db917e4ec55358364a09d41c",
+            "ParentBackdropItemId": "e8f5c286db917e4ec55358364a09d41c",
+            "ParentBackdropImageTags": ["99cb1e3deadb5d0777dc447ca76b94bb"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 1,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-07-28T13:31:29.6617845Z",
+                "Played": true,
+                "Key": "Troye Sivan-Blue Neighbourhood-0001-0007TALK ME DOWN",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Troye Sivan"],
+            "ArtistItems": [
+                {
+                    "Name": "Troye Sivan",
+                    "Id": "e8f5c286db917e4ec55358364a09d41c"
+                }
+            ],
+            "Album": "Blue Neighbourhood",
+            "AlbumId": "e6adc91ed89f84430901c94258e09f32",
+            "AlbumPrimaryImageTag": "d81a4ea431f9b7fb6628d256dc3a3bd2",
+            "AlbumArtist": "Troye Sivan",
+            "AlbumArtists": [
+                {
+                    "Name": "Troye Sivan",
+                    "Id": "e8f5c286db917e4ec55358364a09d41c"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "b3ea97ab660ec067b09d0f399449fb5f",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "b3ea97ab660ec067b09d0f399449fb5f": "OYFqHwoe0$s.9]NHoeWVj@oea|WVj@R+R+oLs.WVa|jtWV"
+                },
+                "Backdrop": {
+                    "99cb1e3deadb5d0777dc447ca76b94bb": "WmFH3]*;-@x_VYtmyFizjIkXV?V?M_jFohj^awWAtUnjofbIoMog"
+                },
+                "Primary": {
+                    "d81a4ea431f9b7fb6628d256dc3a3bd2": "eREzyVx^0LJWoI6US$?Hxuayt-oyMxWCozt9odROWBt7E1R,%Mt6oI"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio",
+            "NormalizationGain": -10.7
         }
     ],
     "TotalRecordCount": 5,
