@@ -1,0 +1,192 @@
+{
+  "Items": [
+    {
+      "Name": "2CELLOS",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "2e144d84d78c03887e7652ee504ab3be",
+      "ChannelId": null,
+      "RunTimeTicks": 2146800000,
+      "ProviderIds": {
+        "MusicBrainzArtist": "c8e94c78-0e17-4d9a-b1f6-96e1b22ebe97"
+      },
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-c8e94c78-0e17-4d9a-b1f6-96e1b22ebe97",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "8e6e3a202283bf48fc5ec1a3e0212ae6",
+        "Logo": "794f5a3338b7b483924ee3ca1880005c"
+      },
+      "BackdropImageTags": [
+        "dca73d4f0df3db8ee5dac8791d6d7853"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "dca73d4f0df3db8ee5dac8791d6d7853": "WSJkQ6M{0K%M4n%gjYE1?bxuNe-;4TIA-=xuWCtS?bj]M{M{IUbb"
+        },
+        "Primary": {
+          "8e6e3a202283bf48fc5ec1a3e0212ae6": "e7Aw3Yx[?H?b9Z~p%MM{oLIU4.f6S2RjxtnOM{IUM|%LxZjZE1M{xu"
+        },
+        "Logo": {
+          "794f5a3338b7b483924ee3ca1880005c": "O9RW0bxuRj%Mxuxuof%Mj[WBofofayof~qfQxuWBWBj[j["
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Adam Lambert",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "8777e4b593aa579fd24858a4cea6439b",
+      "ChannelId": null,
+      "RunTimeTicks": 79654661229,
+      "ProviderIds": {
+        "AudioDbArtist": "114553",
+        "MusicBrainzArtist": "e942594a-91cc-427a-8beb-6815c28e9254"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-e942594a-91cc-427a-8beb-6815c28e9254",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "8f3b9a8298c486ba30f1294cd754bf9e",
+        "Banner": "dd28cf37f356a24e0db168e0d9fc9b93",
+        "Logo": "28e61ad5f349e1842e01738187aac934"
+      },
+      "BackdropImageTags": [
+        "457c1b02c8ead06f8f9b0c8b5b1c26fd"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "457c1b02c8ead06f8f9b0c8b5b1c26fd": "W+JEeH$$}Aoc=vt5w^snsoS2jZj[S2S2azoLj[o1n%j@xFoLo1WV"
+        },
+        "Primary": {
+          "8f3b9a8298c486ba30f1294cd754bf9e": "eKAJf.od0fba%2NbR*xas.R*9tj[-oNGR*M|aet7WBWCxuo0RkWBWV"
+        },
+        "Banner": {
+          "dd28cf37f356a24e0db168e0d9fc9b93": "HGAvtVELNG^j0g$%%29v={^*R*Rj-UIpoLxaNcoM"
+        },
+        "Logo": {
+          "28e61ad5f349e1842e01738187aac934": "OLFYc6%K~XtR_4xu_N%1n%R.W;WBWVofaxWDW:odjsofaz"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Alessia Cara",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "c269aba5ba75e150dcd5cb160cbf8eaf",
+      "ChannelId": null,
+      "RunTimeTicks": 2138644900,
+      "ProviderIds": {
+        "MusicBrainzArtist": "97e69730-3791-423b-9770-287261588854"
+      },
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-97e69730-3791-423b-9770-287261588854",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "4d961477a8df565faf7b9ab394b7440a",
+        "Logo": "72841a2408747bda2d54461a0e9a41ba"
+      },
+      "BackdropImageTags": [
+        "dad6e4a85baeb3d3d7bf4b0725439926"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "dad6e4a85baeb3d3d7bf4b0725439926": "WTN,MT^+.7xuMy?H~Wj[%MbHMxxuxvWBRjofj[ay~Wj[Ris:ogfl"
+        },
+        "Primary": {
+          "4d961477a8df565faf7b9ab394b7440a": "eIAvwm={009Z-;9FNG-=xua0WWWBn$ozX9tRofnhV@NGIoR+xat6WB"
+        },
+        "Logo": {
+          "72841a2408747bda2d54461a0e9a41ba": "OGAd7fM{00t7M{xuofxuayayj[RjWBWBM{WBt7ofofayWB"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Alesso",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "55f7d96f1d6c2ee59a37a3b626fe0edc",
+      "ChannelId": null,
+      "RunTimeTicks": 2151840000,
+      "ProviderIds": {
+        "MusicBrainzArtist": "addb00fd-733c-4223-8fdf-f78be2488acd"
+      },
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-addb00fd-733c-4223-8fdf-f78be2488acd",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "988a6d9b33f78f10f9a1ab8b3d053c21",
+        "Logo": "7793749d662be3a85750a86d75693e7f"
+      },
+      "BackdropImageTags": [
+        "ad9ddc3e771cf4ead49bf2ac769cae42"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "ad9ddc3e771cf4ead49bf2ac769cae42": "WYQS-s_N.SDi$*?vxuV@R*NGxGWVIUaxRPRkx]of?b%MxuWBxut7"
+        },
+        "Primary": {
+          "988a6d9b33f78f10f9a1ab8b3d053c21": "e984MU^+66AE=y%Mt7NvS3o00fIo=d-AI;EfS3%1$*W;t7ofazWCWB"
+        },
+        "Logo": {
+          "7793749d662be3a85750a86d75693e7f": "OXP%O,M{_3-;?bxuogM{xut7WBogRjt7~qofIUWCIUWBay"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Alex Hope",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "084b43ef44765d41b5b5ce270ff2a424",
+      "ChannelId": null,
+      "RunTimeTicks": 2118480000,
+      "ProviderIds": {
+        "MusicBrainzArtist": "6baf966d-f10f-4d79-9512-cd4ca1d7dbad"
+      },
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-6baf966d-f10f-4d79-9512-cd4ca1d7dbad",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "ImageBlurHashes": {},
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    }
+  ],
+  "TotalRecordCount": 5,
+  "StartIndex": 0
+}

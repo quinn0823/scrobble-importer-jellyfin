@@ -1,0 +1,263 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "PlaybackActivity",
+    "withoutRowId": false,
+    "strict": false,
+    "ddl": "CREATE TABLE PlaybackActivity (DateCreated DATETIME NOT NULL, UserId TEXT, ItemId TEXT, ItemType TEXT, ItemName TEXT, PlaybackMethod TEXT, ClientName TEXT, DeviceName TEXT, PlayDuration INT);",
+    "columns": [
+        {
+            "name": "DateCreated",
+            "type": "DATETIME",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "UserId",
+            "type": "TEXT"
+        },
+        {
+            "name": "ItemId",
+            "type": "TEXT"
+        },
+        {
+            "name": "ItemType",
+            "type": "TEXT"
+        },
+        {
+            "name": "ItemName",
+            "type": "TEXT"
+        },
+        {
+            "name": "PlaybackMethod",
+            "type": "TEXT"
+        },
+        {
+            "name": "ClientName",
+            "type": "TEXT"
+        },
+        {
+            "name": "DeviceName",
+            "type": "TEXT"
+        },
+        {
+            "name": "PlayDuration",
+            "type": "INT"
+        }
+    ],
+    "rows": [
+        [
+            "2025-02-25 00:22:08.6522623",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "71e18f42e5bd3583833d45018e85492e",
+            "Movie",
+            "4th Man Out",
+            "Transcode (v:h264 a:aac)",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            22
+        ],
+        [
+            "2025-02-25 00:30:33.3529034",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "71e18f42e5bd3583833d45018e85492e",
+            "Movie",
+            "4th Man Out",
+            "Transcode (v:h264 a:direct)",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            20
+        ],
+        [
+            "2025-02-25 00:41:07.3736158",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "71e18f42e5bd3583833d45018e85492e",
+            "Movie",
+            "4th Man Out",
+            "Transcode (v:h264 a:direct)",
+            "Jellyfin Web",
+            "煊名的MacBook Air",
+            32
+        ],
+        [
+            "2025-02-25 00:49:19.9841297",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "DirectPlay",
+            "Jellyfin Web",
+            "煊名的MacBook Air",
+            55
+        ],
+        [
+            "2025-02-25 01:35:11.4176029",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            390
+        ],
+        [
+            "2025-02-25 01:46:50.4843749",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "Transcode (v:direct a:aac)",
+            "Jellyfin Mobile (iOS)",
+            "煊名的iPhone",
+            21
+        ],
+        [
+            "2025-02-25 06:47:12.3797662",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            362
+        ],
+        [
+            "2025-02-25 06:53:39.622015",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            88
+        ],
+        [
+            "2025-02-25 06:55:19.898457",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "107dca28fb0ac5320725fb6324e433e8",
+            "Episode",
+            "Looking - s01e05 - Looking for the Future",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            65
+        ],
+        [
+            "2025-02-25 17:51:37.5644732",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "44397c90cb84bf2dd1185e07c2be83b6",
+            "Movie",
+            "Paternity Leave",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            42
+        ],
+        [
+            "2025-02-25 19:46:48.1514721",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "0723e91e266eb8da65ecfa9c344c70e3",
+            "Movie",
+            "4th Man Out",
+            "DirectPlay",
+            "Jellyfin Media Player",
+            "煊名的MacBook Air",
+            1
+        ],
+        [
+            "2026-05-31 00:30:48.7529912",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "98ad5a122a0040fd8fe74cdec18ed889",
+            "Audio",
+            "Neon Trees - Still Young (Picture Show)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            303
+        ],
+        [
+            "2026-05-31 00:35:53.3979372",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "4576c11a7aa7086b6c61195d710e5855",
+            "Audio",
+            "Frankmusik - Day Break (Day Break)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            312
+        ],
+        [
+            "2026-05-31 00:41:06.7447172",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "2d19ba7f4e87a2d50c89489ca63da0f9",
+            "Audio",
+            "The Wanted - Satellite (Word of Mouth)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            182
+        ],
+        [
+            "2026-05-31 00:44:09.9130346",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "fc4c985339ec28cfd00748cf5e958a19",
+            "Audio",
+            "OneRepublic - Au Revoir (Native)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            289
+        ],
+        [
+            "2026-05-31 00:49:00.6924293",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "d6e6d037a08fb6fb79df79917451f1aa",
+            "Audio",
+            "Taylor Swift - cardigan (folklore)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            238
+        ],
+        [
+            "2026-05-31 00:53:00.6188308",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "831f739872f86e08a61cc8ce1a244505",
+            "Audio",
+            "Adam Lambert - Kickin’ In (Trespassing)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            196
+        ],
+        [
+            "2026-05-31 00:56:17.8249551",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "201495a52e325b919b17cb8e43637887",
+            "Audio",
+            "Imagine Dragons - They Don’t Know You Like I Do (Mercury – Acts 1 & 2)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            257
+        ],
+        [
+            "2026-05-31 01:00:36.1036495",
+            "b58fa2d2e44d4c7e9e6e74d83a1b85fc",
+            "fdbba4247805712f5be652b57cad3bd1",
+            "Audio",
+            "Frankmusik - Fast as I Can (Between)",
+            "DirectPlay",
+            "Jellyfin Web",
+            "JON-G3-3590",
+            204
+        ]
+    ]
+}

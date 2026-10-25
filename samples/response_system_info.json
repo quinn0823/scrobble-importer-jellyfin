@@ -1,0 +1,35 @@
+{
+    "OperatingSystemDisplayName": "",
+    "HasPendingRestart": false,
+    "IsShuttingDown": false,
+    "SupportsLibraryMonitor": true,
+    "WebSocketPortNumber": 8096,
+    "CompletedInstallations": [],
+    "CanSelfRestart": true,
+    "CanLaunchWebBrowser": false,
+    "ProgramDataPath": "/config",
+    "WebPath": "/jellyfin/jellyfin-web",
+    "ItemsByNamePath": "/config/metadata",
+    "CachePath": "/cache",
+    "LogPath": "/config/log",
+    "InternalMetadataPath": "/config/metadata",
+    "TranscodingTempPath": "/cache/transcodes",
+    "CastReceiverApplications": [
+        {
+            "Id": "F007D354",
+            "Name": "Stable"
+        },
+        {
+            "Id": "6F511C87",
+            "Name": "Unstable"
+        }
+    ],
+    "HasUpdateAvailable": false,
+    "EncoderLocation": "System",
+    "SystemArchitecture": "X64",
+    "LocalAddress": "https://jellyfin.org",
+    "ServerName": "JONATHAN-SERVER",
+    "Version": "10.10.7",
+    "OperatingSystem": "",
+    "Id": "95b6814630534e469deb4d12d8f242fc"
+}

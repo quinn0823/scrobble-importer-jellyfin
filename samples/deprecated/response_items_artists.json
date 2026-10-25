@@ -1,0 +1,227 @@
+{
+  "Items": [
+    {
+      "Name": "Matt Simons",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "14f81804925b42e8000afc74d6c9a4d4",
+      "ChannelId": null,
+      "RunTimeTicks": 31806818119,
+      "ProviderIds": {
+        "AudioDbArtist": "118933",
+        "MusicBrainzArtist": "e14eb176-68e9-434e-9a55-da2718c454d8"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-e14eb176-68e9-434e-9a55-da2718c454d8",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "cbe39b92cf44ff5ea6acd1dfba4b9b50",
+        "Logo": "74f7926578ab3021b4d8f590c17a9285"
+      },
+      "BackdropImageTags": [
+        "534924e7b04f1c150f136ab0b6fd12aa"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "534924e7b04f1c150f136ab0b6fd12aa": "WCA]~n~n?u_N?a^--VE0E1E1Mxw]MwWIE0ITsDV@E2?Ht9xu%fS6"
+        },
+        "Primary": {
+          "cbe39b92cf44ff5ea6acd1dfba4b9b50": "e]L4g0?bX8RiRP~qxuofofWBo}M{jYtRkC%MV@M{j[ay%MaeRjn%ay"
+        },
+        "Logo": {
+          "74f7926578ab3021b4d8f590c17a9285": "O6TI,a-pof%MoL-;of~qj[j[f6ayj[fQ%Ma}WBj[WVayWB"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Imagine Dragons",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "b14d0411cfe5ec26e1bec4c22e3aea7f",
+      "ChannelId": null,
+      "RunTimeTicks": 243220114276,
+      "ProviderIds": {
+        "AudioDbArtist": "114415",
+        "MusicBrainzArtist": "012151a8-0f9a-44c9-997f-ebd68b5389f9"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "d24b2f3d700438a2a24d1e0503acea56",
+        "Banner": "b14e02985c5894501f549933998d88af",
+        "Logo": "3ed81fb48a87b8ecf0049de8ed3e5516"
+      },
+      "BackdropImageTags": [
+        "5181383cee485398a53151f6f51f8c86"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "5181383cee485398a53151f6f51f8c86": "W97nE~t700Rk-:xt%NfRM_j[fkWBWYayoIkBR*WB%MayM{j[xtof"
+        },
+        "Primary": {
+          "d24b2f3d700438a2a24d1e0503acea56": "e98WW}$M0gb^9u^jjYE2xtR+9uNbxZxF-UE2of%1NGoLM{s:xtIpNG"
+        },
+        "Banner": {
+          "b14e02985c5894501f549933998d88af": "HUG8f#^*9FMyIUoMj[WB%M~W-VRPRjRjofoLj[t7"
+        },
+        "Logo": {
+          "3ed81fb48a87b8ecf0049de8ed3e5516": "OVR:HGofofofWBt7j[%MfQfQj[fQj[ay~qj[WBj[ofayay"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "FINNEAS",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "622c521233a42103f574c5c1bca47dd5",
+      "ChannelId": null,
+      "RunTimeTicks": 1903484130,
+      "ProviderIds": {
+        "AudioDbArtist": "159152",
+        "MusicBrainzArtist": "151cd917-1ee2-4702-859f-90899ad897f8"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-151cd917-1ee2-4702-859f-90899ad897f8",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "f695d1cb006770c2482e0ab23368b675",
+        "Banner": "e3c2685d48edfaa71a9840affb0df9e3",
+        "Logo": "3d58d908ed3d667cab1fd1cd6c2797ab"
+      },
+      "BackdropImageTags": [
+        "374c2ceb983b8ee734c1100888bd3867"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "374c2ceb983b8ee734c1100888bd3867": "WsHv-dNdxFs:NHs.}@a}bHs.WCj[ogoeR+oLoKWVS4R+oKayoLju"
+        },
+        "Primary": {
+          "f695d1cb006770c2482e0ab23368b675": "eeFPmZVXOZt-i^?waJX9o#bbXAo#smn%W=W.WCaJjYjYtRRjaee.WB"
+        },
+        "Banner": {
+          "e3c2685d48edfaa71a9840affb0df9e3": "H%Mj:m%NRjxtt8aex]t8t7~qWXayt7WCofogoMog"
+        },
+        "Logo": {
+          "3d58d908ed3d667cab1fd1cd6c2797ab": "OC7UI~j[ofWBt7ofWBofj[ayj[j[ayay4mayayj[WBWBof"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Charlie Puth",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "bbd7b81aa558379cf767b554975b886c",
+      "ChannelId": null,
+      "RunTimeTicks": 107060489114,
+      "ProviderIds": {
+        "AudioDbArtist": "136663",
+        "MusicBrainzArtist": "525f1f1c-03f0-4bc8-8dfd-e7521f87631b"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-525f1f1c-03f0-4bc8-8dfd-e7521f87631b",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "ca34b0d9f0f233f728c9a57c83a21494",
+        "Banner": "00d16a55455ec014db9cdb0a53a6daf9",
+        "Logo": "d7ce3d5194ec0f1024bf403dbfbde971"
+      },
+      "BackdropImageTags": [
+        "4ff991dc66878119bf9df2ed4e84d46c"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "4ff991dc66878119bf9df2ed4e84d46c": "WoHueLs-v~NHr?w||uWVW;oLR+e:;NNuNuj[bboJ,rS3SNWWbHs."
+        },
+        "Primary": {
+          "ca34b0d9f0f233f728c9a57c83a21494": "ePG[TL~UE2RjsS%1ofWBNGNH0MRj%1jZW=t7WBWCxaxaj[R*Rkt6oM"
+        },
+        "Banner": {
+          "00d16a55455ec014db9cdb0a53a6daf9": "HGA^LBVrsl^+4.E4JCOs9Z_NIoRk%MIVWEs:xZVr"
+        },
+        "Logo": {
+          "d7ce3d5194ec0f1024bf403dbfbde971": "O968EXj[ofWBWBofayt7ayj[j[ayj[j[00ayWBofofWBj["
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Neon Trees",
+      "ServerId": "95b6814630534e469deb4d12d8f242fc",
+      "Id": "73b6c229fc8551eb4bc4468b84393da2",
+      "ChannelId": null,
+      "RunTimeTicks": 65413463898,
+      "ProviderIds": {
+        "AudioDbArtist": "114405",
+        "MusicBrainzArtist": "16243662-8538-4746-a0fb-0d15b5828b8e"
+      },
+      "IsFolder": true,
+      "Type": "MusicArtist",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "Artist-Musicbrainz-16243662-8538-4746-a0fb-0d15b5828b8e",
+        "ItemId": "00000000000000000000000000000000"
+      },
+      "ImageTags": {
+        "Primary": "e555ca98171d557f7336b039b9f903b6",
+        "Banner": "481e901f1d7f5d2d8b33ac60e0b6f8f1",
+        "Logo": "15cef0a138b3e7520c341e969d8e6f13"
+      },
+      "BackdropImageTags": [
+        "c958d48c41450e6c13a5f879f82ecbfe"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "c958d48c41450e6c13a5f879f82ecbfe": "WBAv%w-qIv~V4;IW?GxsNFIoIUR*RkoLo0IUM{%1JUIpRkxtoMo3"
+        },
+        "Primary": {
+          "e555ca98171d557f7336b039b9f903b6": "e,8ZGmX9W=s;aepykWbbkCjsT2j[a}bIoLRoayayayayWEj[jYWBae"
+        },
+        "Banner": {
+          "481e901f1d7f5d2d8b33ac60e0b6f8f1": "HZG8_uot%fX4kWtkSx%zR%~pX4o|WUW:tktQtQoe"
+        },
+        "Logo": {
+          "15cef0a138b3e7520c341e969d8e6f13": "OPE{kNj[00WB9FofM{ofofofj[WBWBj[IUWBt7ofofofof"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    }
+  ],
+  "TotalRecordCount": 36,
+  "StartIndex": 0
+}
