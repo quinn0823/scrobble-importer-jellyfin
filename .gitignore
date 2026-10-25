@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Jellyfin OpenAPI specification files
+jellyfin-openapi-*.json
+
+# Sample files
+# /samples/
+# /examples/
+
+# Playback reporting database
+playback_reporting.db
+
+# Device ID
+/.device_id
