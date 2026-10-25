@@ -133,7 +133,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
                 "MusicBrainzTrack": "e0d6b2a9-5328-4750-977a-4a0d355ad197"
             }
             ```
-4. 构建曲目索引。键名称构建为播放记录数据库的格式；`RunTimeTicks` 的单位为 100ns，转换为 ms；通过 `Artist[i].Id` 获取艺人的 MusicBrainz Id，并构建列表。属性缺失则不包含此键；如果有重复键，控制台输出。
+4. 构建曲目索引。键名称构建为播放记录数据库的格式；`RunTimeTicks` 的单位为 100ns，转换为 ms；通过 `ArtistItems[i].Id` 获取艺人的 MusicBrainz Id，并构建列表。属性缺失则不包含此键；如果有重复键，控制台输出并跳过。
     - JSON 格式：
         ```json
         {
@@ -189,7 +189,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
     - `PlayDuration`：实际播放时长 (sec)。暂停记录在内，允许大于曲目总时长。
     - `ClientName`：Jellyfin 播放客户端名称。
     - 来自索引的属性。
-7. 构建 payload。`duration_played` 单位为 sec。任何属性缺失，控制台输出并跳过此项。
+7. 构建 payload。`duration_played` 单位为 sec。任何属性缺失，控制台输出并跳过此项，全部字段必需。
     - JSON 格式：
         ```json
         {
