@@ -48,6 +48,16 @@
 - “艺人”、`Artist`、`Artists` 指的是**曲目艺人**，用于从 Jellyfin 获取 MusicBrainz Id 并参与提交，是索引内的几对键值。
 - “专辑艺人”、`AlbumArtist`、`AlbumArtists` 指的是**专辑艺人**，只用于和播放记录数据库匹配，是索引键的一部分。
 
+## 运行模式
+
+### 直接运行或 `--check`
+
+此模式不执行流程 3.5 和 3.6 的提交操作。用于检查 Jellyfin 数据库属性完整度，和播放记录项目和 Jellyfin 的匹配情况。输出属性缺失，或未匹配的项目。
+
+### `--submit`
+
+此模式执行完整流程，提交到 ListenBrainz。
+
 ## 流程
 
 ### 1. 登录用户
@@ -74,22 +84,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
 
 此后所有请求，需携带 `MediaBrowser Client="{MEDIA_BROWSER_CLIENT}", Device="{DEVICE}", DeviceId="{device_id}", Version="{VERSION}", Token="{access_token}"` (`snake` 写法的 `AccessToken`) 鉴权请求头。
 
-### 2. 获取系统信息
-
-获取系统信息，用于后续提交记录。
-
-1. 获取系统信息。
-    - Curl 示例：
-        ```bash
-        curl -X 'GET' \
-          '${URL}/System/Info' \
-          -H 'accept: application/json' \
-          -H 'Authorization: MediaBrowser Client="${MEDIA_BROWSER_CLIENT}", Device="${DEVICE}", DeviceId="${device_id}", Version="${VERSION}", Token="${access_token}"'
-        ```
-    - 响应示例： @samples/response_system_info.json 。
-2. 从响应中获取：`Version`。
-
-### 3. 处理曲目属性
+### 2. 处理曲目属性
 
 从 Jellyfin 数据库获取所有曲目数据，包含 MusicBrainz Id (`ProviderIds`)；曲目数据的艺人 MusicBrainz Id 不支持多艺人，故还需完整获取所有艺人数据。然后，将艺人和艺人 MusicBrainz Id 对应；将曲目和曲目属性对应，建立索引，格式尽量统一和保持 Jellyfin 格式。
 
@@ -135,7 +130,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
                 "MusicBrainzTrack": "e0d6b2a9-5328-4750-977a-4a0d355ad197"
             }
             ```
-4. 构建曲目索引。键名称构建为播放记录数据库的格式；`RunTimeTicks` 的单位为 100ns，转换为 ms；通过 `Artists` 列表获取艺人的 MusicBrainz Id 列表。
+4. 构建曲目索引。键名称构建为播放记录数据库的格式；`RunTimeTicks` 的单位为 100ns，转换为 ms；通过 `Artists` 列表获取艺人的 MusicBrainz Id 列表。如果任何属性缺失，控制台输出。
     - JSON 格式：
         ```json
         {
@@ -173,19 +168,20 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
         }
         ```
 
-### 4. 获取播放记录和提交
+### 3. 获取播放记录和提交
 
 使用播放记录数据库从构建的索引获取数据，每 1000 个分组获取并提交到 ListenBrainz。
 
 1. 从 `{PLAYBACK_REPORTING_DB}` (SQLite) 读取 `PlaybackActivity` 表。
     - 数据表结构示例： @samples/playback_reporting.PlaybackActivity.json 。
 2. 筛选 `ItemType` 为 `Audio` 的项目。如果配置了 `{START_DATETIME}` 或 `{END_DATETIME}`，仅保留区间内的播放记录，只配置其中一个则单向限制。
-3. 使用 `ItemName` 从构建的索引获取数据，过滤并只保留（或）。播放记录数据库的 `PlayDuration` 单位为 sec。
+3. 使用 `ItemName` 从构建的索引获取数据，如果未找到，控制台输出。过滤并只保留（或）。播放记录数据库的 `PlayDuration` 单位为 sec。
     - `PlayDuration` >= 240
     - `PlayDuration` \* 1000 >= `RunTimeMs` / 2
 4. 有用的数据：
     - `DateCreated`：SQLite DATETIME，开始播放时间，按 `{TZ}` 时区转换为时间戳。
     - `PlayDuration`：实际播放时长 (sec)。暂停记录在内，允许大于曲目总时长。
+    - `ClientName`：Jellyfin 播放客户端名称。
     - 来自索引的属性。
 5. 构建 payload。`duration_played` 单位为 sec。
     - JSON 格式：
@@ -203,8 +199,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
                     "track_mbid": "{ProviderIds.MusicBrainzTrack}",
                     "tracknumber": {IndexNumber},
                     "discnumber": {ParentIndexNumber},
-                    "media_player": "Jellyfin",
-                    "media_player_version": "{jellyfin_version}",
+                    "media_player": "{ClientName}",
                     "submission_client": "{MEDIA_BROWSER_CLIENT}",
                     "submission_client_version": "{VERSION}",
                     "duration_ms": {RunTimeMs},
@@ -228,8 +223,7 @@ API 密钥连接没有指定用户，无法更新 / 删除项目，故使用用�
                     "track_mbid": "6ad2831f-6e18-422e-8353-5e33616a3028",
                     "tracknumber": 13,
                     "discnumber": 1,
-                    "media_player": "Jellyfin",
-                    "media_player_version": "10.10.7",
+                    "media_player": "Jellyfin Media Player",
                     "submission_client": "Scrobble Importer Jellyfin",
                     "submission_client_version": "0.1.0",
                     "duration_ms": 120607,
