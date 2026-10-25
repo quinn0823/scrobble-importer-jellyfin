@@ -1,0 +1,306 @@
+{
+    "Items": [
+        {
+            "Name": "Rule the World",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "4e6b0f0042ec8dd364e0e98388f455ab",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2021-11-12T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 1981387760,
+            "ProductionYear": 2021,
+            "IndexNumber": 1,
+            "ParentIndexNumber": 1,
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "bccfbc24c3c85c748813b4e20b36bea7",
+            "ParentBackdropItemId": "bccfbc24c3c85c748813b4e20b36bea7",
+            "ParentBackdropImageTags": ["0ee821b27730f63ef8896515c56a6ea6"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 18,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-05-04T10:44:45.9835666Z",
+                "Played": true,
+                "Key": "The Wanted-Most Wanted: The Greatest Hits-0001-0001Rule the World",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["The Wanted"],
+            "ArtistItems": [
+                {
+                    "Name": "The Wanted",
+                    "Id": "bccfbc24c3c85c748813b4e20b36bea7"
+                }
+            ],
+            "Album": "Most Wanted: The Greatest Hits",
+            "AlbumId": "949ce8ebec169077bf1aa33e9abe2400",
+            "AlbumPrimaryImageTag": "6ba2269eac4c793252f90d500a4e1c93",
+            "AlbumArtist": "The Wanted",
+            "AlbumArtists": [
+                {
+                    "Name": "The Wanted",
+                    "Id": "bccfbc24c3c85c748813b4e20b36bea7"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "c723680a4f41ff27757accfd724aeb13",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "c723680a4f41ff27757accfd724aeb13": "OoQJyFoft7ofs:oft7~WfjRjayWBayRkt7jtj[j[ayj[j["
+                },
+                "Backdrop": {
+                    "0ee821b27730f63ef8896515c56a6ea6": "WYEoiG%LR-xuW=kD~poLRjofR*a#?IWBRjofR*WCkXWBoJofoLoL"
+                },
+                "Primary": {
+                    "6ba2269eac4c793252f90d500a4e1c93": "eKGl3K?aMx?bxu~qt7jZxaj=?cWCD%WXNG%g%LWBozoL%MoeayWCof"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio"
+        },
+        {
+            "Name": "betty",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "88a21200070b0e44f8204d05615862a6",
+            "HasLyrics": true,
+            "Container": "flac",
+            "PremiereDate": "2020-07-24T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2945210660,
+            "ProductionYear": 2020,
+            "IndexNumber": 14,
+            "ParentIndexNumber": 1,
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "2cc46526e4d8f97ea9c4756f641497a5",
+            "ParentBackdropItemId": "2cc46526e4d8f97ea9c4756f641497a5",
+            "ParentBackdropImageTags": ["903b718caf59e8800fdcbae73f4f8431"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 2,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-03-24T17:59:34.614068Z",
+                "Played": true,
+                "Key": "Taylor Swift-folklore-0001-0014betty",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Taylor Swift"],
+            "ArtistItems": [
+                {
+                    "Name": "Taylor Swift",
+                    "Id": "2cc46526e4d8f97ea9c4756f641497a5"
+                }
+            ],
+            "Album": "folklore",
+            "AlbumId": "41ca9e9bb99a4601f7c92d0d48c635f4",
+            "AlbumPrimaryImageTag": "4265223c9174c2e9eb8d049f2d9bdb99",
+            "AlbumArtist": "Taylor Swift",
+            "AlbumArtists": [
+                {
+                    "Name": "Taylor Swift",
+                    "Id": "2cc46526e4d8f97ea9c4756f641497a5"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "62bffa68969d8a580f801b3d16ba723b",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "62bffa68969d8a580f801b3d16ba723b": "OhJacCa}NIa#WCs.R+_Nj[oLj[azj[az?wa#j@oeazj[j@"
+                },
+                "Backdrop": {
+                    "903b718caf59e8800fdcbae73f4f8431": "WA7,+4s:0fELxF={$*bGoLIpI:={-TR*NbR*oJ%2NbNG$%xaI;a}"
+                },
+                "Primary": {
+                    "4265223c9174c2e9eb8d049f2d9bdb99": "eaKUZk-;M{M{j[~qxuWBRjWBRjWBWBofof-;ofWBRjofxut7j[RjWB"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio"
+        },
+        {
+            "Name": "Supermarket Flowers",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "6c5c3200f77029266d4b1813dc069c6d",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2017-03-03T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2211526530,
+            "ProductionYear": 2017,
+            "IndexNumber": 12,
+            "ParentIndexNumber": 1,
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "625d2d23484986020c488abbcf6958f4",
+            "ParentBackdropItemId": "625d2d23484986020c488abbcf6958f4",
+            "ParentBackdropImageTags": ["d22ac7013eb83132e1813546c96b75c6"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 2,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-05-06T12:31:54.3929734Z",
+                "Played": true,
+                "Key": "Ed Sheeran-Divide-0001-0012Supermarket Flowers",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Ed Sheeran"],
+            "ArtistItems": [
+                {
+                    "Name": "Ed Sheeran",
+                    "Id": "625d2d23484986020c488abbcf6958f4"
+                }
+            ],
+            "Album": "Divide",
+            "AlbumId": "4f28b2c8617785e438b5dc4b052323b8",
+            "AlbumPrimaryImageTag": "3b7c0e3a6d3debffb82507db1dccc0e3",
+            "AlbumArtist": "Ed Sheeran",
+            "AlbumArtists": [
+                {
+                    "Name": "Ed Sheeran",
+                    "Id": "625d2d23484986020c488abbcf6958f4"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "e03652b6d35e767e188af2bc8f1ee174",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "e03652b6d35e767e188af2bc8f1ee174": "OK8qNgt7WBj[WBt7ofWBofj[j[fQfQj[00RjofayofRjWB"
+                },
+                "Backdrop": {
+                    "d22ac7013eb83132e1813546c96b75c6": "WGBpFJE10K%g-;Z~nNxakqE1e.-pIUjtxukCIUWBx]RjRPxukWIV"
+                },
+                "Primary": {
+                    "3b7c0e3a6d3debffb82507db1dccc0e3": "eU7r8cpJu6cGn3tTkWj]ahkCt-f+VrWCV@t-bIkVWYaKoyV[VrV?k?"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio"
+        },
+        {
+            "Name": "Can’t Feel My Face",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "990c5f003b62b6d382e1f3031d5b6109",
+            "HasLyrics": true,
+            "Container": "mp3",
+            "PremiereDate": "2021-12-17T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2019265310,
+            "ProductionYear": 2021,
+            "IndexNumber": 3,
+            "ParentIndexNumber": 1,
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "1783ac6fbf7d1b6a0bedaa8200db74fd",
+            "ParentBackdropItemId": "1783ac6fbf7d1b6a0bedaa8200db74fd",
+            "ParentBackdropImageTags": ["6e68516bb32b8e28c7e5d313d40dece1"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 2,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-04-03T15:09:42.1862994Z",
+                "Played": true,
+                "Key": "Various Artists-Sing 2: Original Motion Picture Soundtrack-0001-0003Can’t Feel My Face",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Kiana Ledé"],
+            "ArtistItems": [
+                {
+                    "Name": "Kiana Ledé",
+                    "Id": "8f48c688dadcf41a02086937628181f6"
+                }
+            ],
+            "Album": "Sing 2: Original Motion Picture Soundtrack",
+            "AlbumId": "d13b97401c1080b3cd6c799888238ecc",
+            "AlbumPrimaryImageTag": "01accfb8b134e3b1be9c6c69082e3943",
+            "AlbumArtist": "Various Artists",
+            "AlbumArtists": [
+                {
+                    "Name": "Various Artists",
+                    "Id": "1783ac6fbf7d1b6a0bedaa8200db74fd"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "7403f49cee8605e3b611ad95490bf98e",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "7403f49cee8605e3b611ad95490bf98e": "OJDvWTof01WBxuj[-:WDWCxuoft7jtof9Zj[t6azRjWBaf"
+                },
+                "Backdrop": {
+                    "6e68516bb32b8e28c7e5d313d40dece1": "WbM@it_3%MWBfQt7~qofWBt7ayofofofWBM{t7xu-;t7xuRjayof"
+                },
+                "Primary": {
+                    "01accfb8b134e3b1be9c6c69082e3943": "eTM5t-r^^i-pIV~BxZ-n%2WB5PRj%0j[xtB+NG%1ay%J?Exat5xa%K"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio"
+        },
+        {
+            "Name": "Majestic",
+            "ServerId": "95b6814630534e469deb4d12d8f242fc",
+            "Id": "52f50d0155865dad417a5767e1771058",
+            "HasLyrics": true,
+            "Container": "flac",
+            "PremiereDate": "2015-10-09T00:00:00.0000000Z",
+            "ChannelId": null,
+            "RunTimeTicks": 2445046710,
+            "ProductionYear": 2015,
+            "IndexNumber": 12,
+            "ParentIndexNumber": 1,
+            "IsFolder": false,
+            "Type": "Audio",
+            "ParentLogoItemId": "e90e0ac82c6f6e17366e9359993ebeb7",
+            "ParentBackdropItemId": "e90e0ac82c6f6e17366e9359993ebeb7",
+            "ParentBackdropImageTags": ["6f0bc326ed0d338a69dfacf9d5d5728a"],
+            "UserData": {
+                "PlaybackPositionTicks": 0,
+                "PlayCount": 6,
+                "IsFavorite": false,
+                "LastPlayedDate": "2026-04-21T05:06:06.7197397Z",
+                "Played": true,
+                "Key": "Frankmusik-For You-0001-0012Majestic",
+                "ItemId": "00000000000000000000000000000000"
+            },
+            "Artists": ["Frankmusik"],
+            "ArtistItems": [
+                {
+                    "Name": "Frankmusik",
+                    "Id": "e90e0ac82c6f6e17366e9359993ebeb7"
+                }
+            ],
+            "Album": "For You",
+            "AlbumId": "6adcf287fdb7257695aad873043c0d0b",
+            "AlbumPrimaryImageTag": "2b98fceebb056eb1087a5a91e4b1d0c6",
+            "AlbumArtist": "Frankmusik",
+            "AlbumArtists": [
+                {
+                    "Name": "Frankmusik",
+                    "Id": "e90e0ac82c6f6e17366e9359993ebeb7"
+                }
+            ],
+            "ImageTags": {},
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "c0ac453ee67755c2b502647d948ec528",
+            "ImageBlurHashes": {
+                "Logo": {
+                    "c0ac453ee67755c2b502647d948ec528": "O~R1|~ofW.ofW.ofbGxajtfQfQa|fQfQ.ma{n+a|n+a|ja"
+                },
+                "Backdrop": {
+                    "6f0bc326ed0d338a69dfacf9d5d5728a": "WmI5GJIU%MxuIUoM~qWBbbtRM{WBtRkBWBt7WBWBt7j[t7jsofjt"
+                },
+                "Primary": {
+                    "2b98fceebb056eb1087a5a91e4b1d0c6": "e86@~FIV0J~XozxaNGbd-;ITIpt7xCIUozRit7WYNG%LM|ofxaWAWC"
+                }
+            },
+            "LocationType": "FileSystem",
+            "MediaType": "Audio"
+        }
+    ],
+    "TotalRecordCount": 5,
+    "StartIndex": 0
+}
